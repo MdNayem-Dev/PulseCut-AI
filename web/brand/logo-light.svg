@@ -1,0 +1,36 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoPrimaryGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+    <linearGradient id="logoAccentGrad" x1="10" y1="36" x2="38" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#FB923C" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0" y1="0" x2="36" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Icon Mark -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="#1E1B4B" stroke="rgba(255,255,255,0.14)" stroke-width="1.5" />
+  
+  <!-- Left Vertical Ribbon -->
+  <path d="M14 14C14 12.3431 15.3431 11 17 11H19C20.6569 11 22 12.3431 22 14V34C22 35.6569 20.6569 37 19 37H17C15.3431 37 14 35.6569 14 34V14Z" fill="url(#logoPrimaryGrad)" />
+
+  <!-- Diagonal Laser Pulse -->
+  <path d="M19 12L35 28C36 29 35.5 30.5 34 30.5H29L17 18.5C16 17.5 16.5 16 18 16L19 12Z" fill="url(#logoAccentGrad)" opacity="0.9" />
+
+  <!-- Precision Play Diamond -->
+  <path d="M25 18L34 23.5C35.5 24.3 35.5 26.5 34 27.3L27 31.5C25.5 32.4 23.5 31.3 23.5 29.5V20.5C23.5 18.7 25.5 17.6 27 18.5L25 18Z" fill="#FFFFFF" />
+
+  <!-- Typography: PulseCut -->
+  <text x="56" y="31" font-family="'Geist', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.03em" fill="#F8FAFC">Pulse<tspan fill="#818CF8">Cut</tspan></text>
+
+  <!-- AI Badge -->
+  <rect x="156" y="16" width="30" height="17" rx="5" fill="url(#badgeGrad)" />
+  <text x="171" y="28.5" font-family="'Geist', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" letter-spacing="0.04em" fill="#FFFFFF" text-anchor="middle">AI</text>
+</svg>

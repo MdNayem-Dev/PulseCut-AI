@@ -1,0 +1,81 @@
+================================================================================
+                    PULSECUT AI — LINKEDIN POST & CAPTIONS
+================================================================================
+Developer: Md. Nayem Hossain
+GitHub: https://github.com/MdNayem-Dev/PulseCut-AI
+LinkedIn: https://www.linkedin.com/in/md-nayem-dev
+================================================================================
+
+[INSTRUCTIONS]
+Below are 2 human-crafted, non-generic captions designed to position you as an 
+elite Full-Stack & AI Automation Engineer. Choose the option that fits your goal:
+- Option 1 is best for Tech Leads, CTOs, and recruiters (highlights architecture).
+- Option 2 is best for Clients, Agencies, and business owners (highlights ROI & problem-solving).
+
+Attach the 5 generated visual slides from this folder as a multi-image post or PDF carousel.
+
+--------------------------------------------------------------------------------
+OPTION 1: THE FULL-STACK ARCHITECT & SYSTEMS ENGINEER (RECOMMENDED)
+--------------------------------------------------------------------------------
+Most AI video clipping tools cost $50–$100/month, upload private media to third-party servers, and hit YouTube’s strict 10,000-unit API quota after just 4 to 5 uploads.
+
+I wanted something faster, 100% private, self-hosted, and completely quota-free.
+
+So I engineered PulseCut AI — a complete end-to-end studio that converts hours of raw podcasts, gameplay, and live streams into engaging 9:16 vertical Shorts, Reels, and TikToks.
+
+Here is how the architecture works under the hood:
+
+1. Local Speech-to-Text (Zero Cloud Cost):
+Instead of paying per-minute transcription API fees or leaking client audio, I integrated on-device Sherpa-ONNX speech recognition (NVIDIA NeMo transducer). Audio never leaves the local machine, and transcription runs in near real-time.
+
+2. Quota-Free YouTube Studio Browser Daemon:
+YouTube’s Data API v3 charges 1,600 quota units per video upload, effectively capping automation at ~5 videos/day. To solve this, I designed a custom Playwright browser automation daemon. It maintains persistent session authentication, opens a local Chrome instance, and automates upload, metadata insertion, and scheduled publishing for 40–50+ Shorts daily with zero API limits.
+
+3. Computer Vision & Automated 9:16 Reframing:
+Using edge-detection and facial heuristics, the engine automatically detects webcam overlays in gaming streams, separates the player from gameplay, and generates clean split-screen vertical compositions.
+
+4. Hardware-Accelerated Kinetic Subtitles:
+Generates dynamic, word-level active subtitle animations and high-converting hooks rendered natively through FFmpeg and Pillow.
+
+5. High-Throughput Async Backend:
+FastAPI backend coupled with an adaptive fair-queue job scheduler that dynamically regulates CPU/RAM load, preventing machine lockups during heavy encoding tasks. The frontend is built with zero-dependency responsive JavaScript for instant load times and seamless state syncing.
+
+The entire project is turnkey and open-source:
+GitHub Repository: https://github.com/MdNayem-Dev/PulseCut-AI
+
+I specialize in building full-stack applications, AI automation pipelines, and scalable web systems. If you are looking for an engineer to architect high-performance tools for your team or agency, my DMs are open.
+
+Let me know what you think of local-first AI pipelines in the comments!
+
+#FullStackDevelopment #Python #FastAPI #Playwright #ArtificialIntelligence #SoftwareEngineering #Automation #OpenSource #DevCommunity
+
+--------------------------------------------------------------------------------
+OPTION 2: THE PROBLEM-SOLVER & CLIENT-FOCUSED BUILDER
+--------------------------------------------------------------------------------
+Why pay $60/month for SaaS clipping tools that bottleneck your output when you can run a full AI studio directly on your own machine?
+
+I recently wrapped up development on PulseCut AI — an automated video pipeline built for creators, podcasters, and media agencies who need high volume without subscription caps or cloud API limits.
+
+The core bottlenecks I solved:
+
+- Privacy & Cost: All audio transcription runs locally on-device via neural transducer models. No cloud API bills, and sensitive content stays 100% private.
+- The 5-Video Upload Limit: Google's official API limits uploads to ~5 videos a day. I built a smart Playwright browser bot that interfaces directly with YouTube Studio, enabling 40–50+ scheduled Shorts per day automatically.
+- Smarter Framing: It intelligently detects facecams and subjects in wide footage, re-framing them into 9:16 vertical format with active word-by-word kinetic captions.
+- Multi-Model LLM Support: Plug and play with Gemini, Claude, OpenAI, Groq, or local Ollama to find viral hooks and generate high-CTR titles.
+
+Tech Stack: Python 3.10+, FastAPI, Playwright, FFmpeg, Sherpa-ONNX, HTML5/CSS3.
+
+Check out the source code and documentation:
+GitHub: https://github.com/MdNayem-Dev/PulseCut-AI
+
+If your business needs custom automation workflows, AI integrations, or full-stack software development, let's connect and discuss your project!
+
+#Automation #AI #SoftwareEngineer #VideoEditing #Python #WebDevelopment #FreelanceDeveloper #TechInnovation
+
+--------------------------------------------------------------------------------
+POSTING TIPS FOR MAXIMUM ENGAGEMENT:
+1. Media: Upload the images (01_hero_showcase.png to 05_dashboard_preview.png) as a carousel or multiple image collage.
+2. Timing: Tuesday, Wednesday, or Thursday between 9:00 AM - 11:30 AM (local time).
+3. First Comment: Post the GitHub link (https://github.com/MdNayem-Dev/PulseCut-AI) as the first comment under your post as well for maximum link visibility.
+4. Profile Prep: Ensure your LinkedIn headline states "Full-Stack Software Engineer | Python, FastAPI & AI Automation" and links to your GitHub (https://github.com/MdNayem-Dev).
+================================================================================
